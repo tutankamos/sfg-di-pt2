@@ -12,7 +12,7 @@ import org.springframework.context.annotation.*;
 /**
  * Created by jt on 2/20/21.
  */
-@PropertySource("classpath:datasource.properties")
+// @PropertySource("classpath:datasource.properties") // mi serve solo se ho un file di properties che non e' quello di default di springboot
 @Configuration
 public class GreetingServiceConfig {
 
